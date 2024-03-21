@@ -23,15 +23,14 @@ class MyApp extends StatelessWidget {
             color: Color(0xFF007AFF),
             weight: 12.0,
           ),
-          title: const Center(
-            child: Text(
-              'Подтверждение номера',
-              style: TextStyle(
-                fontSize: 17,
-                fontWeight: FontWeight.w600,
-                color: Colors.black,
-                fontFamily: 'SF Pro Text',
-              ),
+          centerTitle: true,
+          title: const Text(
+            'Подтверждение номера',
+            style: TextStyle(
+              fontSize: 17,
+              fontWeight: FontWeight.w600,
+              color: Colors.black,
+              fontFamily: 'SF Pro Text',
             ),
           ),
           actions: [
